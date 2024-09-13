@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(hsla(204, 90%, 51%, 0.9),rgba(140, 249, 198, 0.9));
+    color: #333;
+}
+
+header {
+    background: linear-gradient(hsla(226, 93%, 47%, 0.9),rgba(248, 69, 138, 0.9));
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.poem-section {
+    margin-bottom: 40px;
+    text-align: center;
+    background: linear-gradient(hsla(179, 93%, 47%, 0.9),#07ffd2e6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poem-section h2 {
+    font-size: 1.8em;
+    color: lightblue;
+    margin-bottom: 15px;
+}
+
+.poem-section p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.poem-section img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.poem-section a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightblue;
+    background: linear-gradient(hsla(236, 93%, 47%, 0.9),#07ffd2e6);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.poem-section a:hover {
+    background: #45a049;
+}
+
+.interaction {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.interaction h2 {
+    margin-bottom: 20px;
+    color: #1ae8fb;
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(0, 123, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0099fe;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4c7aaf;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
